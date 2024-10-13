@@ -3,14 +3,16 @@
 }
 
 .Dictionary h1 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 34px;
+  font-weight: bolder;
   margin-bottom: 15px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: -2px;
 }
 
 .Dictionary section {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgbc (0 0 0 / 10%);
   margin: 20px 0;
@@ -27,4 +29,6 @@
 .Dictionary .hint {
   font-size: 14px;
   margin-top: 5px;
+  font-style: italic;
+  color: #7e89e5;
 }
